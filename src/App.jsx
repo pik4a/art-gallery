@@ -8,7 +8,7 @@ import searchIcon from './assets/img/icons8-search.svg'; // Импорт ваш�
 
 // Массив расширен ровно до 20 карточек
 const PAINTINGS_DATA = [
-  { id: 1, title: "CASCATE DI TIVOLI", year: 1761, artist: "JEAN-HONORE FRAGONARD", museum: "LOUVRE MUSEUM", img: "/art-gallery/img/cascateditivoli.jpg" },
+  { id: 1, title: "CASCATE DI TIVOLI", year: 1761, artist: "JEAN-HONORE FRAGONARD", museum: "LOUVRE MUSEUM", img: `${import.meta.env.BASE_URL}img/cascateditivoli.jpg` },
   { id: 2, title: "PORTRAIT OF VINCENT VAN GOGH", year: 1886, artist: "VINCENT VAN GOGH", museum: "MUSEUM OF MODERN ART", img: "./src/assets/img/PortraitofVincentvanGogh.png" },
   { id: 3, title: "UNEQUAL MARRIAGE", year: 1862, artist: "JEAN-HONORE FRAGONARD", museum: "LOUVRE MUSEUM", img: "./src/assets/img/Unequalmarriage.png" },
   { id: 4, title: "THE HAPPY VIOLINIST", year: 1624, artist: "THOMAS GAINSBOROUGH", museum: "NATIONAL GALLERY", img: "./src/assets/img/ThehappyViolinist.png" },
